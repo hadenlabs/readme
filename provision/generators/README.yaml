@@ -36,9 +36,27 @@ badges:
   - name: 'Build Status'
     image: 'https://travis-ci.org/hadenlabs/readme.svg?branch=main'
     url: 'https://travis-ci.org/hadenlabs/readme'
+  - name: License
+    image: https://img.shields.io/github/license/hadenlabs/readme.svg
+    url: https://github.com/hadenlabs/readme
+  - name: 'Issues'
+    image: 'https://img.shields.io/github/issues/hadenlabs/readme.svg'
+    url: 'https://github.com/hadenlabs/dockerfiles/readme'
   - name: 'Latest Release'
     image: 'https://img.shields.io/github/release/hadenlabs/readme.svg'
     url: 'https://travis-ci.org/hadenlabs/readme/releases'
+
+# Bulleted features to display
+features:
+  - 'features'
+
+todo:
+  - name: caddy
+    url: 'https://caddyserver.com/'
+    done: false
+  - name: pandoc
+    url: 'https://pandoc.org/'
+    done: false
 
 # Short description of this project
 description: |-
@@ -50,7 +68,6 @@ usage: |-
 
 
   ```
-
 
 examples:
   - 'docs/examples/common.md'
