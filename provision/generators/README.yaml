@@ -34,7 +34,7 @@ github_repo: hadenlabs/readme
 # Badges to display
 badges:
   - name: Lint
-    image: https://github.com/github/hadenlabs/readme/workflows/lint.yml/badge.svg
+    image: https://github.com/hadenlabs/readme/actions/workflows/lint.yml/badge.svg?branch=develop
     url: https://github.com/hadenlabs/readme/actions
   - name: License
     image: https://img.shields.io/github/license/hadenlabs/readme.svg
