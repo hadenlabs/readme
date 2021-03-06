@@ -33,18 +33,18 @@ github_repo: hadenlabs/readme
 
 # Badges to display
 badges:
-  - name: 'Build Status'
-    image: 'https://travis-ci.org/hadenlabs/readme.svg?branch=main'
-    url: 'https://travis-ci.org/hadenlabs/readme'
+  - name: Lint
+    image: https://github.com/github/hadenlabs/readme/workflows/lint.yml/badge.svg
+    url: https://github.com/hadenlabs/readme/actions
   - name: License
     image: https://img.shields.io/github/license/hadenlabs/readme.svg
     url: https://github.com/hadenlabs/readme
-  - name: 'Issues'
-    image: 'https://img.shields.io/github/issues/hadenlabs/readme.svg'
-    url: 'https://github.com/hadenlabs/dockerfiles/readme'
-  - name: 'Latest Release'
-    image: 'https://img.shields.io/github/release/hadenlabs/readme.svg'
-    url: 'https://travis-ci.org/hadenlabs/readme/releases'
+  - name: Issues
+    image: https://img.shields.io/github/issues/hadenlabs/readme.svg
+    url: https://github.com/hadenlabs/dockerfiles/readme
+  - name: Latest Release
+    image: https://img.shields.io/github/release/hadenlabs/readme.svg
+    url: https://travis-ci.org/hadenlabs/readme/releases
 
 # Short description of this project
 description: |-
