@@ -1,1 +1,43 @@
 ### common
+
+````yaml
+
+  ---
+  # name of this project
+  name: readme
+
+  # License of this project
+  license: 'MIT'
+
+  copyright:
+    name: Hadenlabs
+    url: https://hadenlabs.com
+
+  email:
+    support: support@hadenlabs.com
+
+  # Canonical GitHub repo
+  github_repo: hadenlabs/readme
+
+  # Badges to display
+  badges:
+    - name: 'Build Status'
+      image: 'https://travis-ci.org/hadenlabs/readme.svg?branch=main'
+      url: 'https://travis-ci.org/hadenlabs/readme'
+
+  # Short description of this project
+  description: |-
+    examples of readme generator by gotemplate.
+
+  # load examples
+  examples:
+    - 'docs/examples/common.md'
+
+  # How to use this project
+  usage: |-
+
+    ```bash
+      example of use
+    ```
+
+````
