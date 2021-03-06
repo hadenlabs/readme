@@ -1,0 +1,56 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: readme
+
+company:
+  name: hadenlabs
+  description: |-
+    company labs
+  url: https://hadenlabs.com
+  github: https://github.com/hadenlabs
+  email: support@hadenlabs.com
+
+copyright:
+  name: Hadenlabs
+  url: https://hadenlabs.com
+
+email:
+  support: support@hadenlabs.com
+
+# Logo for this project
+#logo: docs/logo.png
+
+# License of this project
+license: 'MIT'
+
+# Canonical GitHub repo
+github_repo: hadenlabs/readme
+
+# Badges to display
+badges:
+  - name: 'Build Status'
+    image: 'https://travis-ci.org/hadenlabs/readme.svg?branch=main'
+    url: 'https://travis-ci.org/hadenlabs/readme'
+  - name: 'Latest Release'
+    image: 'https://img.shields.io/github/release/hadenlabs/readme.svg'
+    url: 'https://travis-ci.org/hadenlabs/readme/releases'
+
+# Short description of this project
+description: |-
+  examples of readme generator by gotemplate.
+
+# How to use this project
+usage: |-
+  ```bash
+
+
+  ```
+
+
+examples:
+  - 'docs/examples/common.md'
