@@ -49,14 +49,14 @@ This project is part of our comprehensive [{{ printf (ds "config").company.name}
 
 {{ if has (ds "config") "introduction" }}
 
-## Introduction
+## :page_facing_up: Introduction
 
 {{ (ds "config").introduction -}} {{ end }}
 
 
 {{ if has (ds "config") "todo" }}
 
-## TODO
+## :page_facing_up: TODO
 
 {{ range $todo := (ds "config").todo }}
 {{ printf "* [%s](%s)" $todo.name $todo.url }}
