@@ -41,3 +41,12 @@
     ```
 
 ````
+
+### contributors
+
+```yaml
+# Contributors to this project
+contributors:
+  - name: 'Luis Mayta'
+    github: 'luismayta'
+```
