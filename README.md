@@ -14,7 +14,7 @@
 
 # readme
 
-[![Build Status](https://travis-ci.org/hadenlabs/readme.svg?branch=main)](https://travis-ci.org/hadenlabs/readme) [![License](https://img.shields.io/github/license/hadenlabs/readme.svg)](https://github.com/hadenlabs/readme) [![Issues](https://img.shields.io/github/issues/hadenlabs/readme.svg)](https://github.com/hadenlabs/dockerfiles/readme) [![Latest Release](https://img.shields.io/github/release/hadenlabs/readme.svg)](https://travis-ci.org/hadenlabs/readme/releases)
+[![Lint](https://github.com/github/hadenlabs/readme/workflows/lint.yml/badge.svg)](https://github.com/hadenlabs/readme/actions) [![License](https://img.shields.io/github/license/hadenlabs/readme.svg)](https://github.com/hadenlabs/readme) [![Issues](https://img.shields.io/github/issues/hadenlabs/readme.svg)](https://github.com/hadenlabs/dockerfiles/readme) [![Latest Release](https://img.shields.io/github/release/hadenlabs/readme.svg)](https://travis-ci.org/hadenlabs/readme/releases)
 
 examples of readme generator by gotemplate.
 
