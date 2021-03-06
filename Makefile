@@ -39,7 +39,7 @@ MESSAGE_HAPPY?:="Done! ${MESSAGE}, Now Happy Hacking"
 SOURCE_DIR=$(ROOT_DIR)
 PROVISION_DIR:=$(ROOT_DIR)/provision
 DOCS_DIR:=$(ROOT_DIR)/docs
-README_TEMPLATE:=$(PROVISION_DIR)/templates/README.md.mpl
+README_TEMPLATE:=$(PROVISION_DIR)/templates/README.md.tmpl
 
 export README_FILE ?= README.md
 export README_YAML ?= provision/generators/README.yaml
@@ -83,8 +83,3 @@ environment:
 	@echo "=====> loading virtualenv ${PYENV_NAME}..."
 	make python.environment
 	@echo ${MESSAGE_HAPPY}
-
-.PHONY: clean
-clean:
-	@rm -f ./dist.zip
-	@rm -fr ./vendor
