@@ -2,7 +2,7 @@ name: lint code
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # every day at midnight
+    - cron: '0 0 * * *' # every day at midnight
 
   pull_request:
     branches:
@@ -14,12 +14,17 @@ on:
 
 env:
   NODE_VERSION: 14.15.5
-  PYTHON_VERSION : 3.8.0
+  PYTHON_VERSION: 3.8.0
+  LANG: en_US.UTF-8
+  LC_ALL: en_US.UTF-8
 
 jobs:
   build:
     name: build
     runs-on: Ubuntu-20.04
+    env:
+      LANG: en_US.UTF-8
+      LC_ALL: en_US.UTF-8
 
     steps:
       - name: Check out a copy of the repo
