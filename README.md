@@ -14,7 +14,7 @@
 
 # readme
 
-[![Lint](https://github.com/github/hadenlabs/readme/workflows/lint.yml/badge.svg)](https://github.com/hadenlabs/readme/actions) [![License](https://img.shields.io/github/license/hadenlabs/readme.svg)](https://github.com/hadenlabs/readme) [![Issues](https://img.shields.io/github/issues/hadenlabs/readme.svg)](https://github.com/hadenlabs/dockerfiles/readme) [![Latest Release](https://img.shields.io/github/release/hadenlabs/readme.svg)](https://travis-ci.org/hadenlabs/readme/releases)
+[![Lint](https://github.com/hadenlabs/readme/actions/workflows/lint.yml/badge.svg?branch=develop)](https://github.com/hadenlabs/readme/actions) [![License](https://img.shields.io/github/license/hadenlabs/readme.svg)](https://github.com/hadenlabs/readme) [![Issues](https://img.shields.io/github/issues/hadenlabs/readme.svg)](https://github.com/hadenlabs/dockerfiles/readme) [![Latest Release](https://img.shields.io/github/release/hadenlabs/readme.svg)](https://travis-ci.org/hadenlabs/readme/releases)
 
 examples of readme generator by gotemplate.
 
@@ -77,6 +77,15 @@ MIT is an open-sourced software licensed under the [MIT license](LICENSE.md).
 
 ````
 
+### contributors
+
+```yaml
+# Contributors to this project
+contributors:
+  - name: 'Luis Mayta'
+    github: 'luismayta'
+```
+
 ## Help
 
 **Got a question?**
@@ -118,3 +127,7 @@ All other trademarks referenced herein are the property of their respective owne
 ## About
 
 This project is maintained and funded by [Hadenlabs](https://hadenlabs.com). Like it? Please let us know at <support@hadenlabs.com>
+
+## Don't forget to 🌟 Star 🌟 the repo if you like this GitHub Action
+
+[Your feedback is appreciated](https://github.com/hadenlabs/readme/issues)
