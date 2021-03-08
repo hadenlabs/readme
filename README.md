@@ -20,7 +20,7 @@ examples of readme generator by gotemplate.
 
 ## :page_facing_up: License
 
-MIT is an open-sourced software licensed under the [MIT license](LICENSE.md).
+readme is an open-sourced software licensed under the [MIT license](LICENSE.md).
 
 ## Usage
 
@@ -84,6 +84,16 @@ contributors:
     github: 'luismayta'
 ```
 
+### Copyrights
+
+```yaml
+# copyrights to this project
+copyrights:
+  - name: 'hadenlabs'
+    url: 'https::/hadenlabs.com'
+    year: '2018'
+```
+
 ## Help
 
 **Got a question?**
@@ -97,8 +107,6 @@ File a GitHub [issue](https://github.com/hadenlabs/readme/issues), send us an [e
 Please use the [issue tracker](https://github.com/hadenlabs/readme/issues) to report any bugs or file feature requests.
 
 ### Developing
-
-If you are interested in being a contributor and want to get involved in developing this project or [help out](https://hadenlabs.com) with our other projects, we would love to hear from you! Shoot us an [email](mailto:support@hadenlabs.com).
 
 In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
 
@@ -122,10 +130,6 @@ Copyright © 2018-2021 [Hadenlabs](https://hadenlabs.com)
 
 All other trademarks referenced herein are the property of their respective owners.
 
-## About
-
-This project is maintained and funded by [Hadenlabs](https://hadenlabs.com). Like it? Please let us know at <support@hadenlabs.com>
-
-## Don't forget to 🌟 Star 🌟 the repo if you like this GitHub Action
+## Don't forget to 🌟 Star 🌟 the repo if you like readme
 
 [Your feedback is appreciated](https://github.com/hadenlabs/readme/issues)
