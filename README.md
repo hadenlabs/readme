@@ -18,8 +18,6 @@
 
 examples of readme generator by gotemplate.
 
-This project is part of our comprehensive [hadenlabs](https://hadenlabs.com) examples of readme.
-
 ## :page_facing_up: License
 
 MIT is an open-sourced software licensed under the [MIT license](LICENSE.md).
