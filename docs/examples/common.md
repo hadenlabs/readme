@@ -41,19 +41,18 @@
 ### contributors
 
 ```yaml
-  # Contributors to this project
-  contributors:
-    - name: 'Luis Mayta'
-      github: 'luismayta'
+# Contributors to this project
+contributors:
+  - name: 'Luis Mayta'
+    github: 'luismayta'
 ```
 
 ### Copyrights
 
 ```yaml
-  # copyrights to this project
-  copyrights:
-    - name: 'hadenlabs'
-      url: 'https::/hadenlabs.com'
-      year: '2018'
-
+# copyrights to this project
+copyrights:
+  - name: 'hadenlabs'
+    url: 'https::/hadenlabs.com'
+    year: '2018'
 ```
