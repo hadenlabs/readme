@@ -25,7 +25,7 @@
 
 ## :page_facing_up: License
 
-{{ (ds "config").license }} is an open-sourced software licensed under the [{{(ds "config").license }} license](LICENSE.md).
+{{ (ds "config").name }} is an open-sourced software licensed under the [{{(ds "config").license }} license](LICENSE.md).
 
 {{ end }}
 
