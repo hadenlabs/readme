@@ -9,10 +9,6 @@
   # License of this project
   license: 'MIT'
 
-  copyright:
-    name: Hadenlabs
-    url: https://hadenlabs.com
-
   email:
     support: support@hadenlabs.com
 
