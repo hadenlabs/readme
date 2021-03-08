@@ -21,10 +21,6 @@
 
 {{ if has (ds "config") "description" }} {{(ds "config").description }} {{ end }}
 
-{{ if has (ds "config") "company" }}
-This project is part of our comprehensive [{{ printf (ds "config").company.name}}]({{ printf (ds "config").company.url}}) examples of readme.
-{{end}}
-
 {{ if has (ds "config") "license" }}
 
 ## :page_facing_up: License
