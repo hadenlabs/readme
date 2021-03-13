@@ -28,6 +28,16 @@ This is a list of requirements that need to be installed previously to enjoy all
 
 - [gomplate](https://github.com/hairyhenderson/gomplate)
 
+## Usage
+
+Example can be found in [example](./example) folder.
+
+```bash
+
+  make setup
+
+```
+
 ## :page_facing_up: Examples
 
 ### common
