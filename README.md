@@ -14,20 +14,19 @@
 
 # readme
 
-[![Lint](https://github.com/hadenlabs/readme/actions/workflows/lint.yml/badge.svg?branch=develop)](https://github.com/hadenlabs/readme/actions) [![License](https://img.shields.io/github/license/hadenlabs/readme.svg)](https://github.com/hadenlabs/readme) [![Issues](https://img.shields.io/github/issues/hadenlabs/readme.svg)](https://github.com/hadenlabs/dockerfiles/readme) [![Latest Release](https://img.shields.io/github/release/hadenlabs/readme.svg)](https://travis-ci.org/hadenlabs/readme/releases)
+[![Lint](https://github.com/hadenlabs/readme/actions/workflows/lint.yml/badge.svg?branch=develop)](https://github.com/hadenlabs/readme/actions) [![License](https://img.shields.io/github/license/hadenlabs/readme.svg)](https://github.com/hadenlabs/readme) [![Issues](https://img.shields.io/github/issues/hadenlabs/readme.svg)](https://github.com/hadenlabs/readme) [![Latest Release](https://img.shields.io/github/release/hadenlabs/readme.svg)](https://github.com/hadenlabs/readme/releases)
 
-examples of readme generator by gotemplate.
+examples of readme generator by gomplate.
 
 ## :page_facing_up: License
 
 readme is an open-sourced software licensed under the [MIT license](LICENSE.md).
 
-## Usage
+## Requirements
 
-```bash
+This is a list of requirements that need to be installed previously to enjoy all the goodies of this configuration:
 
-
-```
+- [gomplate](https://github.com/hairyhenderson/gomplate)
 
 ## :page_facing_up: Examples
 
@@ -41,10 +40,6 @@ readme is an open-sourced software licensed under the [MIT license](LICENSE.md).
 
   # License of this project
   license: 'MIT'
-
-  copyright:
-    name: Hadenlabs
-    url: https://hadenlabs.com
 
   email:
     support: support@hadenlabs.com
@@ -75,6 +70,106 @@ readme is an open-sourced software licensed under the [MIT license](LICENSE.md).
 
 ````
 
+### Copyrights
+
+```yaml
+# copyrights to this project
+copyrights:
+  - name: 'hadenlabs'
+    url: 'https://hadenlabs.com'
+    year: '2018'
+```
+
+### TO-DO
+
+```yaml
+todo:
+  - name: 'chore: implement features'
+    url: 'https://github.com/hadenlabs/readme/issues/4'
+```
+
+### Features
+
+```yaml
+features:
+  - 'information of feature'
+```
+
+### screenshots
+
+```yaml
+screentshots:
+  - name: 'name screentshot'
+    url: 'url image'
+    description: 'decription of screenshots'
+```
+
+### introduction
+
+```yaml
+introduction: |-
+
+  example of introduction
+```
+
+### usage
+
+```yaml
+usage: |-
+
+  example of usage
+```
+
+### Quick Start
+
+```yaml
+quickstart: |-
+
+  example of quick start
+```
+
+### requirements
+
+```yaml
+requirements: |-
+
+  This is a list of requirements that need to be installed previously to enjoy all the goodies of this configuration:
+
+  * [gomplate](https://github.com/hairyhenderson/gomplate)
+```
+
+### Installation
+
+```yaml
+installation:
+  - 'path of file'
+```
+
+### examples
+
+```yaml
+examples:
+  - 'path of file'
+```
+
+### Related Projects
+
+```yaml
+related:
+  - name: 'name project related'
+    url: 'project related'
+    description: 'description of project related'
+```
+
+### References
+
+```yaml
+references:
+  - name: 'name project references'
+    url: 'project references'
+    description: 'description of project references'
+```
+
 ### contributors
 
 ```yaml
@@ -84,15 +179,11 @@ contributors:
     github: 'luismayta'
 ```
 
-### Copyrights
+## Related Projects
 
-```yaml
-# copyrights to this project
-copyrights:
-  - name: 'hadenlabs'
-    url: 'https::/hadenlabs.com'
-    year: '2018'
-```
+Check out these related projects.
+
+- [awesome readme](https://github.com/matiassingers/awesome-readme) - examples of readme
 
 ## Help
 
@@ -118,7 +209,7 @@ In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
 
 **NOTE:** Be sure to rebase the latest changes from "upstream" before making a pull request!
 
-### Versioning
+#### Versioning
 
 Releases are managed using github release feature. We use [Semantic Versioning](http://semver.org) for all the releases. Every change made to the code base will be referred to in the release notes (except for cleanups and refactorings).
 
