@@ -1,6 +1,6 @@
 {
   "name": "@hadenlabs/readme",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "readme for hadenlabs",
   "repository": "ssh://git@github.com/hadenlabs/readme.git",
   "author": "Luis Mayta <slovacus@gmail.com>",
