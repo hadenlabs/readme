@@ -7,18 +7,6 @@
 # Name of this project
 name: readme
 
-company:
-  name: hadenlabs
-  description: |-
-    company labs
-  url: https://hadenlabs.com
-  github: https://github.com/hadenlabs
-  email: support@hadenlabs.com
-
-copyright:
-  name: Hadenlabs
-  url: https://hadenlabs.com
-
 email:
   support: support@hadenlabs.com
 
@@ -55,6 +43,18 @@ requirements: |-
   This is a list of requirements that need to be installed previously to enjoy all the goodies of this configuration:
 
   * [gomplate](https://github.com/hairyhenderson/gomplate)
+
+# How to use this project
+usage: |-
+
+  Example can be found in [example](./example) folder.
+
+  ```bash
+
+    make setup
+
+  ```
+
 
 examples:
   - 'docs/examples/common.md'
