@@ -41,21 +41,25 @@ badges:
     url: https://github.com/hadenlabs/readme
   - name: Issues
     image: https://img.shields.io/github/issues/hadenlabs/readme.svg
-    url: https://github.com/hadenlabs/dockerfiles/readme
+    url: https://github.com/hadenlabs/readme
   - name: Latest Release
     image: https://img.shields.io/github/release/hadenlabs/readme.svg
-    url: https://travis-ci.org/hadenlabs/readme/releases
+    url: https://github.com/hadenlabs/readme/releases
 
 # Short description of this project
 description: |-
-  examples of readme generator by gotemplate.
+  examples of readme generator by gomplate.
 
-# How to use this project
-usage: |-
-  ```bash
+requirements: |-
 
+  This is a list of requirements that need to be installed previously to enjoy all the goodies of this configuration:
 
-  ```
+  * [gomplate](https://github.com/hairyhenderson/gomplate)
 
 examples:
   - 'docs/examples/common.md'
+
+related:
+  - name: 'awesome readme'
+    url: 'https://github.com/matiassingers/awesome-readme'
+    description: 'examples of readme'
