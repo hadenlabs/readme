@@ -91,6 +91,7 @@ repos:
     rev: c5ab34a3dffbd49bb5ed5c2ec11ed4b5df13f036
     hooks:
       - id: markdown-link-check
+        exclude: \.tpl.md$
       - id: shellcheck
         exclude: (^provision/script/wait-for-it.sh$|^provision/git/hooks/prepare-commit-msg$)
         args:

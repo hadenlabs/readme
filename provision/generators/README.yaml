@@ -14,19 +14,19 @@ email:
 #logo: docs/logo.png
 
 # License of this project
-license: 'MIT'
+license: 'LGPLv3'
 
 # Canonical GitHub repo
 github_repo: hadenlabs/readme
 
 # Badges to display
 badges:
+  - name: GitHub tag (latest SemVer)
+    image: 'https://img.shields.io/github/v/tag/hadenlabs/readme.svg?label=latest&sort=semver'
+    url: 'https://github.com/hadenlabs/readme/releases'
   - name: Lint
     image: https://github.com/hadenlabs/readme/actions/workflows/lint.yml/badge.svg?branch=develop
     url: https://github.com/hadenlabs/readme/actions
-  - name: License
-    image: https://img.shields.io/github/license/hadenlabs/readme.svg
-    url: https://github.com/hadenlabs/readme
   - name: Issues
     image: https://img.shields.io/github/issues/hadenlabs/readme.svg
     url: https://github.com/hadenlabs/readme
