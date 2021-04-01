@@ -68,7 +68,7 @@ features:
 
 ```yaml
 
-screentshots:
+screenshots:
   - name: 'name screentshot'
     url: 'url image'
     description: 'decription of screenshots'
