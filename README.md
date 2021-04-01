@@ -14,13 +14,9 @@
 
 # readme
 
-[![Lint](https://github.com/hadenlabs/readme/actions/workflows/lint.yml/badge.svg?branch=develop)](https://github.com/hadenlabs/readme/actions) [![License](https://img.shields.io/github/license/hadenlabs/readme.svg)](https://github.com/hadenlabs/readme) [![Issues](https://img.shields.io/github/issues/hadenlabs/readme.svg)](https://github.com/hadenlabs/readme) [![Latest Release](https://img.shields.io/github/release/hadenlabs/readme.svg)](https://github.com/hadenlabs/readme/releases)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/hadenlabs/readme.svg?label=latest&sort=semver)](https://github.com/hadenlabs/readme/releases) [![Lint](https://github.com/hadenlabs/readme/actions/workflows/lint.yml/badge.svg?branch=develop)](https://github.com/hadenlabs/readme/actions) [![Issues](https://img.shields.io/github/issues/hadenlabs/readme.svg)](https://github.com/hadenlabs/readme) [![Latest Release](https://img.shields.io/github/release/hadenlabs/readme.svg)](https://github.com/hadenlabs/readme/releases)
 
 examples of readme generator by gomplate.
-
-## :page_facing_up: License
-
-readme is an open-sourced software licensed under the [MIT license](LICENSE.md).
 
 ## Requirements
 
@@ -38,7 +34,7 @@ Example can be found in [example](./example) folder.
 
 ```
 
-## :page_facing_up: Examples
+## Examples
 
 ### common
 
@@ -108,7 +104,7 @@ features:
 ### screenshots
 
 ```yaml
-screentshots:
+screenshots:
   - name: 'name screentshot'
     url: 'url image'
     description: 'decription of screenshots'
@@ -199,7 +195,7 @@ Check out these related projects.
 
 **Got a question?**
 
-File a GitHub [issue](https://github.com/hadenlabs/readme/issues), send us an [email](email) or join our [Slack Community](slack).
+File a GitHub [issue](https://github.com/hadenlabs/readme/issues).
 
 ## Contributing
 
@@ -207,7 +203,7 @@ File a GitHub [issue](https://github.com/hadenlabs/readme/issues), send us an [e
 
 Please use the [issue tracker](https://github.com/hadenlabs/readme/issues) to report any bugs or file feature requests.
 
-### Developing
+### Development
 
 In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
 
@@ -219,9 +215,20 @@ In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
 
 **NOTE:** Be sure to rebase the latest changes from "upstream" before making a pull request!
 
-#### Versioning
+## Module Versioning
 
-Releases are managed using github release feature. We use [Semantic Versioning](http://semver.org) for all the releases. Every change made to the code base will be referred to in the release notes (except for cleanups and refactorings).
+This Module follows the principles of [Semantic Versioning (SemVer)](https://semver.org/).
+
+Using the given version number of `MAJOR.MINOR.PATCH`, we apply the following constructs:
+
+1. Use the `MAJOR` version for incompatible changes.
+1. Use the `MINOR` version when adding functionality in a backwards compatible manner.
+1. Use the `PATCH` version when introducing backwards compatible bug fixes.
+
+### Backwards compatibility in `0.0.z` and `0.y.z` version
+
+- In the context of initial development, backwards compatibility in versions `0.0.z` is **not guaranteed** when `z` is increased. (Initial development)
+- In the context of pre-release, backwards compatibility in versions `0.y.z` is **not guaranteed** when `y` is increased. (Pre-release)
 
 ## Copyright
 
@@ -230,6 +237,10 @@ Copyright © 2018-2021 [Hadenlabs](https://hadenlabs.com)
 ## Trademarks
 
 All other trademarks referenced herein are the property of their respective owners.
+
+## License
+
+The code and styles are licensed under the LGPLv3 license [See project license.](LICENSE).
 
 ## Don't forget to 🌟 Star 🌟 the repo if you like readme
 
