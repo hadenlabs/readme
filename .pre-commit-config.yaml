@@ -17,10 +17,6 @@ repos:
         files: ^(?!\.?git-crypt)
         exclude: .github/linters/.gitleaks.toml
       - id: check-merge-conflict
-      - id: trailing-whitespace
-        files: ^tf|-|\.(py|tfvars|tf|tfenv|env|yml|yaml|pem|key|mock)$
-      - id: end-of-file-fixer
-        files: ^tf|-|\.(py|env|yml|yaml|pem|key|mock)$
       - id: check-added-large-files
         files: ^tf|-|\.(py|env|yml|yaml)$
       - id: check-case-conflict
@@ -44,6 +40,8 @@ repos:
     hooks:
       - id: do-not-commit
       - id: markdown-link-check
+        args:
+          - --config=.github/linters/markdown-link-config.json
         exclude: \.tpl.md$
       - id: shellcheck
         exclude: >
@@ -52,7 +50,8 @@ repos:
             .+\.tpl.sh$|
           )$
         args:
-          - --exclude=SC1072,SC1073,SC2068
+          - --exclude=SC1071,SC1073,SC2068
+      - id: validate-toml
       - id: todocheck
       - id: gitleaks
         args:
