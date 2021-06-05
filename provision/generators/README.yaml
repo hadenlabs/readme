@@ -14,25 +14,25 @@ email:
 #logo: docs/logo.png
 
 # License of this project
-license: 'LGPLv3'
+license: 'LGPL-3.0'
 
 # Canonical GitHub repo
 github_repo: hadenlabs/readme
 
 # Badges to display
 badges:
-  - name: GitHub tag (latest SemVer)
-    image: 'https://img.shields.io/github/v/tag/hadenlabs/readme.svg?label=latest&sort=semver'
-    url: 'https://github.com/hadenlabs/readme/releases'
+  - name: GitHub release
+    image: https://img.shields.io/github/release/hadenlabs/readme?style=flat-square
+    url: https://github.com/hadenlabs/readme/releases/latest
   - name: Lint
-    image: https://github.com/hadenlabs/readme/actions/workflows/lint.yml/badge.svg?branch=develop
-    url: https://github.com/hadenlabs/readme/actions
-  - name: Issues
-    image: https://img.shields.io/github/issues/hadenlabs/readme.svg
-    url: https://github.com/hadenlabs/readme
-  - name: Latest Release
-    image: https://img.shields.io/github/release/hadenlabs/readme.svg
-    url: https://github.com/hadenlabs/readme/releases
+    image: https://img.shields.io/github/workflow/status/hadenlabs/readme/lint-code
+    url: https://github.com/hadenlabs/readme/actions?workflow=lint-code
+  - name: Conventional Commits
+    image: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow
+    url: https://conventionalcommits.org
+  - name: KeepAChangelog
+    image: https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735
+    url: https://keepachangelog.com
 
 # Short description of this project
 description: |-
@@ -54,7 +54,6 @@ usage: |-
     make setup
 
   ```
-
 
 examples:
   - 'docs/examples/common.md'
