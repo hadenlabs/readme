@@ -12,9 +12,9 @@
 
   -->
 
-# readme
+[![GitHub release](https://img.shields.io/github/release/hadenlabs/readme?style=flat-square)](https://github.com/hadenlabs/readme/releases/latest) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/readme/lint-code)](https://github.com/hadenlabs/readme/actions?workflow=lint-code) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735)](https://keepachangelog.com)
 
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/hadenlabs/readme.svg?label=latest&sort=semver)](https://github.com/hadenlabs/readme/releases) [![Lint](https://github.com/hadenlabs/readme/actions/workflows/lint.yml/badge.svg?branch=develop)](https://github.com/hadenlabs/readme/actions) [![Issues](https://img.shields.io/github/issues/hadenlabs/readme.svg)](https://github.com/hadenlabs/readme) [![Latest Release](https://img.shields.io/github/release/hadenlabs/readme.svg)](https://github.com/hadenlabs/readme/releases)
+# readme
 
 examples of readme generator by gomplate.
 
@@ -240,7 +240,7 @@ All other trademarks referenced herein are the property of their respective owne
 
 ## License
 
-The code and styles are licensed under the LGPLv3 license [See project license.](LICENSE).
+The code and styles are licensed under the LGPL-3.0 license [See project license.](LICENSE).
 
 ## Don't forget to 🌟 Star 🌟 the repo if you like readme
 
