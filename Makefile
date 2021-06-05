@@ -25,10 +25,13 @@ AWS_VAULT ?= ${TEAM}
 PROJECT:=readme
 
 PYTHON_VERSION=3.8.0
-NODE_VERSION=14.15.5
+NODE_VERSION=14.16.1
 PYENV_NAME="${PROJECT}"
 GIT_IGNORES:=python,node,go
 GI:=gi
+
+# issues reviewers
+REVIEWERS?=luismayta
 
 # Configuration.
 SHELL ?=/bin/bash
@@ -75,7 +78,6 @@ setup:
 	@echo "==> install packages..."
 	make python.setup
 	make python.precommit
-	@cp -rf provision/git/hooks/prepare-commit-msg .git/hooks/
 	@[ -e ".env" ] || cp -rf .env.example .env
 	make yarn.setup
 	make git.setup
