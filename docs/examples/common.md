@@ -59,7 +59,6 @@ todo:
 ### Features
 
 ```yaml
-
 features:
   - 'information of feature'
 ```
@@ -67,7 +66,6 @@ features:
 ### screenshots
 
 ```yaml
-
 screenshots:
   - name: 'name screentshot'
     url: 'url image'
@@ -80,8 +78,6 @@ screenshots:
 introduction: |-
 
   example of introduction
-
-
 ```
 
 ### usage
@@ -90,8 +86,6 @@ introduction: |-
 usage: |-
 
   example of usage
-
-
 ```
 
 ### Quick Start
@@ -100,8 +94,6 @@ usage: |-
 quickstart: |-
 
   example of quick start
-
-
 ```
 
 ### requirements
@@ -112,13 +104,11 @@ requirements: |-
   This is a list of requirements that need to be installed previously to enjoy all the goodies of this configuration:
 
   * [gomplate](https://github.com/hairyhenderson/gomplate)
-
 ```
 
 ### Installation
 
 ```yaml
-
 installation:
   - 'path of file'
 ```
@@ -126,7 +116,6 @@ installation:
 ### examples
 
 ```yaml
-
 examples:
   - 'path of file'
 ```
