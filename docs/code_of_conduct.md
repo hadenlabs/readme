@@ -1,3 +1,7 @@
+<!-- Space: PROJECTS -->
+<!-- Parent: readme -->
+<!-- Title: Code Of Conduct -->
+
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge
