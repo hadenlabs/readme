@@ -1,3 +1,7 @@
+<!-- Space: PROJECTS -->
+<!-- Parent: readme -->
+<!-- Title: Releasing -->
+
 # Releasing
 
 ## Bump a new version

@@ -1,3 +1,7 @@
+<!-- Space: PROJECTS -->
+<!-- Parent: readme -->
+<!-- Title: Troubleshooting -->
+
 # Troubleshooting
 
 ## Environment
