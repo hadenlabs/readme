@@ -22,7 +22,7 @@ TEAM := hadenlabs
 REPOSITORY_DOMAIN:=github.com
 REPOSITORY_OWNER:=${TEAM}
 AWS_VAULT ?= ${TEAM}
-PROJECT:=readme
+PROJECT := readme
 
 PYTHON_VERSION=3.8.0
 NODE_VERSION=14.16.1
@@ -79,7 +79,6 @@ setup:
 	make python.setup
 	make python.precommit
 	@[ -e ".env" ] || cp -rf .env.example .env
-	make yarn.setup
 	make git.setup
 	@echo ${MESSAGE_HAPPY}
 

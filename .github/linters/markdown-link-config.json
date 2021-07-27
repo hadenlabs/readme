@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://github.com/hadenlabs/build-tools",
+  "baseUrl": "https://github.com/hadenlabs/readme",
   "ignorePatterns": [
     {
       "pattern": "^https://hadenlabs.com"
