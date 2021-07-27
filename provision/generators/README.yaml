@@ -10,6 +10,10 @@ name: readme
 email:
   support: support@hadenlabs.com
 
+confluence:
+  space: PROJECTS
+  title: readme
+
 # Logo for this project
 #logo: docs/logo.png
 
