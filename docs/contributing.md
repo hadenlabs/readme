@@ -8,7 +8,6 @@ Contributions to readme are welcome.
 
 ## Getting Started
 
-
 ### Commits
 
 Follow [semantic commits](https://seesparkbox.com/foundry/semantic_commit_messages) to make `git log`{.interpreted-text role="command"} a little easier to follow.
