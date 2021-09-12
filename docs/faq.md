@@ -2,4 +2,4 @@
 <!-- Parent: readme -->
 <!-- Title: FAQ -->
 
-# Faq 
+# Faq
