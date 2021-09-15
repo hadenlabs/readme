@@ -53,7 +53,6 @@ This is a list of requirements that need to be installed previously to enjoy all
 
 
 
-
 ## Usage
 
 
@@ -111,6 +110,28 @@ Example can be found in [example](./example) folder.
     ```
 
 ````
+
+### GitHub Repo
+
+```yaml
+# Github Repo to this project
+github_repo: hadenlabs/readme
+```
+
+### GitLab Repo
+
+```yaml
+# GitLab Repo to this project
+gitlab_repo: hadenlabs/readme
+```
+
+### Custom GitLab Repo
+
+```yaml
+# GitLab Repo to this project
+gitlab_host: gitlab.domain.com
+gitlab_repo: hadenlabs/readme
+```
 
 ### Copyrights
 
@@ -244,11 +265,14 @@ Check out these related projects.
 
 File a GitHub [issue](https://github.com/hadenlabs/readme/issues).
 
+
 ## Contributing
 
 ### Bug Reports & Feature Requests
 
+
 Please use the [issue tracker](https://github.com/hadenlabs/readme/issues) to report any bugs or file feature requests.
+
 
 ### Development
 
@@ -258,9 +282,13 @@ In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
 2.  **Clone** the project to your own machine
 3.  **Commit** changes to your own branch
 4.  **Push** your work back up to your fork
+
 5.  Submit a **Pull Request** so that we can review your changes
 
+
+
 **NOTE:** Be sure to rebase the latest changes from "upstream" before making a pull request!
+
 
 ## Module Versioning
 
@@ -305,4 +333,6 @@ The code and styles are licensed under the LGPL-3.0 license [See project license
 
 ## Don't forget to 🌟 Star 🌟 the repo if you like readme
 
+
 [Your feedback is appreciated](https://github.com/hadenlabs/readme/issues)
+
