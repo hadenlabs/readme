@@ -38,6 +38,28 @@
 
 ````
 
+### GitHub Repo
+
+```yaml
+# Github Repo to this project
+github_repo: hadenlabs/readme
+```
+
+### GitLab Repo
+
+```yaml
+# GitLab Repo to this project
+gitlab_repo: hadenlabs/readme
+```
+
+### Custom GitLab Repo
+
+```yaml
+# GitLab Repo to this project
+gitlab_host: gitlab.domain.com
+gitlab_repo: hadenlabs/readme
+```
+
 ### Copyrights
 
 ```yaml
