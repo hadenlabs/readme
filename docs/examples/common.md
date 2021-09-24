@@ -1,66 +1,6 @@
 ### common
 
-````yaml
-
-  ---
-  # name of this project
-  name: readme
-
-  # License of this project
-  license: 'MIT'
-
-  email:
-    support: support@hadenlabs.com
-
-  # Canonical GitHub repo
-  github_repo: hadenlabs/readme
-
-  # Badges to display
-  badges:
-    - name: 'Build Status'
-      image: 'https://travis-ci.org/hadenlabs/readme.svg?branch=main'
-      url: 'https://travis-ci.org/hadenlabs/readme'
-
-  # Short description of this project
-  description: |-
-    examples of readme generator by gotemplate.
-
-  # load examples
-  examples:
-    - 'docs/examples/common.md'
-
-  # How to use this project
-  usage: |-
-
-    ```bash
-      example of use
-    ```
-
-````
-
-### GitHub Repo
-
-```yaml
-# Github Repo to this project
-github_repo: hadenlabs/readme
-```
-
-### GitLab Repo
-
-```yaml
-# GitLab Repo to this project
-gitlab_repo: hadenlabs/readme
-```
-
-### Custom GitLab Repo
-
-```yaml
-# GitLab Repo to this project
-gitlab_host: gitlab.domain.com
-gitlab_repo: hadenlabs/readme
-```
-
-### Copyrights
+#### Copyrights
 
 ```yaml
 # copyrights to this project
@@ -70,7 +10,7 @@ copyrights:
     year: '2018'
 ```
 
-### TO-DO
+#### TO-DO
 
 ```yaml
 todo:
@@ -78,14 +18,14 @@ todo:
     url: 'https://github.com/hadenlabs/readme/issues/4'
 ```
 
-### Features
+#### Features
 
 ```yaml
 features:
   - 'information of feature'
 ```
 
-### screenshots
+#### screenshots
 
 ```yaml
 screenshots:
@@ -94,7 +34,7 @@ screenshots:
     description: 'decription of screenshots'
 ```
 
-### introduction
+#### introduction
 
 ```yaml
 introduction: |-
@@ -102,7 +42,7 @@ introduction: |-
   example of introduction
 ```
 
-### usage
+#### usage
 
 ```yaml
 usage: |-
@@ -110,7 +50,7 @@ usage: |-
   example of usage
 ```
 
-### Quick Start
+#### Quick Start
 
 ```yaml
 quickstart: |-
@@ -118,7 +58,7 @@ quickstart: |-
   example of quick start
 ```
 
-### requirements
+#### requirements
 
 ```yaml
 requirements: |-
@@ -128,21 +68,21 @@ requirements: |-
   * [gomplate](https://github.com/hairyhenderson/gomplate)
 ```
 
-### Installation
+#### Installation
 
 ```yaml
 installation:
   - 'path of file'
 ```
 
-### examples
+#### examples
 
 ```yaml
 examples:
   - 'path of file'
 ```
 
-### Related Projects
+#### Related Projects
 
 ```yaml
 related:
@@ -151,7 +91,7 @@ related:
     description: 'description of project related'
 ```
 
-### References
+#### References
 
 ```yaml
 references:
@@ -160,7 +100,7 @@ references:
     description: 'description of project references'
 ```
 
-### contributors
+#### contributors
 
 ```yaml
 # Contributors to this project
