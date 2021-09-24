@@ -10,11 +10,15 @@ name: readme
 email:
   support: support@hadenlabs.com
 
+confluence:
+  space: PROJECTS
+  title: readme
+
 # Logo for this project
 #logo: docs/logo.png
 
 # License of this project
-license: 'MIT'
+license: 'LGPL-3.0'
 
 # Canonical GitHub repo
 github_repo: hadenlabs/readme
@@ -36,15 +40,17 @@ badges:
 
 # Short description of this project
 description: |-
-  examples of readme generator by gomplate.
+  examples of readme generator using gomplate.
 
 requirements: |-
 
   This is a list of requirements that need to be installed previously to enjoy all the goodies of this configuration:
 
-  * [gomplate](https://github.com/hairyhenderson/gomplate)
+  - [gomplate](https://github.com/hairyhenderson/gomplate)
 
-related:
-  - name: 'awesome readme'
-    url: 'https://github.com/matiassingers/awesome-readme'
-    description: 'examples of readme'
+# How to use this project
+usage: |-
+
+  ```bash
+    task setup
+  ```
