@@ -1,0 +1,23 @@
+version: '3'
+
+env:
+  README_YAML: provision/generators/README.yaml
+  README_TEMPLATE: provision/templates/README.tpl.md
+  README_INCLUDES: file://
+
+vars:
+  PROJECT_NAME: readme
+  ORGANIZATION: hadenlabs
+  README_FILE: README.md
+
+tasks:
+  readme:
+    run: once
+    desc: Generate Readme
+    silent: true
+    cmds:
+      - >-
+        gomplate --file {{.README_TEMPLATE}}
+        --out {{.README_FILE}}
+        --datasource config={{.README_YAML}}
+        --datasource includes={{.README_INCLUDES}}
