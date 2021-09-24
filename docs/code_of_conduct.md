@@ -1,5 +1,5 @@
-<!-- Space: PROJECTS -->
-<!-- Parent: readme -->
+<!-- Space: README -->
+<!-- Parent: Project -->
 <!-- Title: Code Of Conduct -->
 
 # Contributor Covenant Code of Conduct
