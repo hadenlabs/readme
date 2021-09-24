@@ -1,0 +1,14 @@
+@startuml
+skinparam roundCorner 15
+file readme.md as readme
+file readme.tpl.md as readme_template
+file readme.yaml as readme_config
+
+control "task readme" as task_readme
+
+readme_template --> task_readme
+readme_config --> task_readme
+
+task_readme --> readme
+note top of task_readme: make readme.md
+@enduml
