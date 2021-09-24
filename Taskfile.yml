@@ -6,15 +6,26 @@ includes:
   docs: ./provision/task/docs.yml
   gitflow: ./provision/task/gitflow.yml
   version: ./provision/task/version.yml
+  mark: ./provision/task/mark.yml
+  plantuml: ./provision/task/plantuml.yml
+  prettier: ./provision/task/prettier.yml
   changelog: ./provision/task/changelog.yml
+  diagrams: ./provision/diagrams/Taskfile.yml
+  example:
+    taskfile: ./example/Taskfile.yml
+    dir: ./example
 
 env:
   DOCKER:
-    sh: docker -v
+    sh: docker --version 2> /dev/null || echo "not exist"
   PYTHON:
-    sh: python --version
+    sh: python --version 2> /dev/null || echo "not exist"
+  GO:
+    sh: go version 2> /dev/null || echo "not exist"
+  NODE:
+    sh: node --version 2> /dev/null || echo "not exist"
   APP_TAG:
-    sh: git describe --tags $(git rev-list --tags --max-count=1) || echo "0.0.0"
+    sh: git describe --tags $(git rev-list --tags --max-count=1) 2> /dev/null || echo "0.0.0"
   README_YAML: provision/generators/README.yaml
   README_TEMPLATE: provision/templates/README.tpl.md
   README_INCLUDES: file://
@@ -32,6 +43,7 @@ vars:
   GIT_IGNORES_CUSTOM: >-
     bin
     TMP_CHANGELOG.md
+    .task
 
 tasks:
   default:
@@ -42,12 +54,16 @@ tasks:
         silent: true
       - task: version:default
       - task: summary
+      - cmd: task -l
     silent: true
 
   summary:
     desc: 'Summary information'
     cmds:
+      - echo Go available {{.GO}}
+      - echo Python available {{.PYTHON}}
       - echo Docker available {{.DOCKER}}
+      - echo Node available {{.NODE}}
     silent: true
 
   check:
@@ -69,6 +85,13 @@ tasks:
         --out {{.README_FILE}}
         --datasource config={{.README_YAML}}
         --datasource includes={{.README_INCLUDES}}
+      - task: example:readme
+
+  prettier:
+    run: once
+    desc: Execute prettier files
+    cmds:
+      - task: prettier:all
 
   setup:
     desc: Setup dependences of project
