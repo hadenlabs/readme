@@ -1,6 +1,7 @@
 version: '3'
 
 includes:
+  changelog: ./provision/task/changelog.yml
   python: ./provision/task/python.yml
   git: ./provision/task/git.yml
   docs: ./provision/task/docs.yml
@@ -9,7 +10,7 @@ includes:
   mark: ./provision/task/mark.yml
   plantuml: ./provision/task/plantuml.yml
   prettier: ./provision/task/prettier.yml
-  changelog: ./provision/task/changelog.yml
+  sonar: ./provision/task/sonar.yml
   diagrams: ./provision/diagrams/Taskfile.yml
   example:
     taskfile: ./example/Taskfile.yml
