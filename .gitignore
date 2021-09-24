@@ -310,5 +310,6 @@ zsdoc/data
 
 # End of https://www.toptal.com/developers/gitignore/api/python,node,go,zsh
 # custom git ignore files
+.task
 TMP_CHANGELOG.md
 bin
