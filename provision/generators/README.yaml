@@ -11,8 +11,10 @@ email:
   support: support@hadenlabs.com
 
 confluence:
-  space: PROJECTS
-  title: readme
+  space: README
+  title: Project
+  images:
+    - static/diagrams/components.png
 
 # Logo for this project
 logo: static/diagrams/components.png
