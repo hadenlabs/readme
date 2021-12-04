@@ -5,6 +5,9 @@
       "pattern": "^https://hadenlabs.com"
     },
     {
+      "pattern": "^docs/images"
+    },
+    {
       "pattern": "^https://github.com/hadenlabs/readme/compare"
     }
   ],
