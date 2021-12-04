@@ -14,10 +14,10 @@ confluence:
   space: README
   title: Project
   images:
-    - static/diagrams/components.png
+    - docs/images/diagrams/components.png
 
 # Logo for this project
-logo: static/diagrams/components.png
+logo: docs/images/diagrams/components.png
 
 # License of this project
 license: 'LGPL-3.0'
@@ -62,9 +62,7 @@ usage: |-
   Example can be found in [example](./example) folder.
 
   ```bash
-
     task setup
-
   ```
 
 examples:
