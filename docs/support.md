@@ -1,5 +1,9 @@
 <!-- Space: README -->
 <!-- Parent: Project -->
-<!-- Title: Support & Contact -->
+<!-- Title: Support -->
+
+<!-- Label: Support and Contact -->
+<!-- Include: docs/disclaimer.md -->
+<!-- Include: ac:toc -->
 
 # Support & Contact
